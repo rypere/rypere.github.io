@@ -1,10 +1,10 @@
 function textSize() {
-    alert("Text Size!");
+    //alert("Text Size!");
     document.getElementById("usertext").style.fontSize = "24px";
 }
 
 function textFancy() {
-    alert("Text Fancy!");
+    //alert("Text Fancy!");
     document.getElementById("usertext").style.fontWeight = "bold";
     document.getElementById("usertext").style.color = "blue";
     document.getElementById("usertext").style.textDecoration = "underline";
@@ -12,7 +12,7 @@ function textFancy() {
 }
 
 function textBoring() {
-    alert("Text Boring!");
+    //alert("Text Boring!");
     document.getElementById("usertext").style.fontWeight = "normal";
     document.getElementById("usertext").style.color = "";
     document.getElementById("usertext").style.textDecoration = "";
@@ -20,7 +20,7 @@ function textBoring() {
 }
 
 function textMoo(){
-    alert("Text Moo!");
+    //alert("Text Moo!");
     document.getElementById("usertext").style.textTransform = "uppercase";
 
     var str = document.getElementById("usertext").value;
