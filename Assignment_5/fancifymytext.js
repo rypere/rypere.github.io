@@ -27,9 +27,9 @@ function textMoo(){
 
     //var str = "test";
 
-    str = str.replace(".", "-Moo.");
-    str = str.replace("!", "-Moo!");
-    str = str.replace("?", "-Moo?");
+    str = str.replaceAll(".", "-Moo.");
+    str = str.replaceAll("!", "-Moo!");
+    str = str.replaceAll("?", "-Moo?");
 
     document.getElementById("usertext").value = str;
 }
